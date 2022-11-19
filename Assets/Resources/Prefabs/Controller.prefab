@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &242337395599620526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9017236580865817796}
+  - component: {fileID: 9130673854931575375}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9017236580865817796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242337395599620526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.4329569, y: -0.008062852, z: 0.083057866}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9130673854931575375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242337395599620526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0439270b826bc4973bd9b7686d008f4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audio:
+    _sounds:
+    - {fileID: 8300000, guid: 7a173db49dd6746548c787c385210556, type: 3}
+    - {fileID: 8300000, guid: 86302830965dc43308af3a94493351ef, type: 3}
+    - {fileID: 8300000, guid: 690eafacae1b54eac8038d8276b76b00, type: 3}
+    - {fileID: 8300000, guid: 6cc43518cca85487f8700fbff580f1e0, type: 3}
+    _defaultClip: {fileID: 8300000, guid: 690eafacae1b54eac8038d8276b76b00, type: 3}
+    _menuMusic: {fileID: 8300000, guid: 4482d96034f5746bb9536d739c30ad1e, type: 3}
+    _gameMusic: {fileID: 8300000, guid: 4482d96034f5746bb9536d739c30ad1e, type: 3}
+  _score:
+    _currentScore: 0
+    _levelScoreBonus: 50
+    _turnScoreBonus: 10
+  _level:
+    _fieldSize: 5
+    _freeSpace: 0
+    _tokenTypes: 0
+    _turns: 0
+  _tokenColors:
+  - {r: 0.8773585, g: 0.31038627, b: 0.5080514, a: 0}
+  - {r: 0.9339623, g: 0.5730421, b: 0, a: 0}
+  - {r: 0.9339623, g: 0.773018, b: 0.19824673, a: 0}
+  - {r: 0.521049, g: 0.9716981, b: 0.09625311, a: 0}
+  - {r: 0.0047169924, g: 1, b: 0.046075195, a: 0}
+  - {r: 0.07943219, g: 0.990566, b: 0.9545224, a: 0}
+  - {r: 0.06132078, g: 0.64140266, b: 1, a: 0}
+  - {r: 0.14690243, g: 0.13679248, b: 1, a: 0}
+  - {r: 0.53393084, g: 0.1273585, b: 1, a: 0}
+  - {r: 0.943021, g: 0.0047169924, b: 1, a: 0}
